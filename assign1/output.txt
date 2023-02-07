@@ -1,0 +1,23 @@
+../Hands-on-System-Programming-with-Linux-master/ch14/
+Filename						Size	Last Modified
+==============================                         =====   ===============
+./ch14/stack_test.c                                     4493    2023-01-18 09:18:28.000000000 +0000
+./ch14/Makefile                                         6462    2023-01-18 09:18:28.000000000 +0000
+./ch14/pthreads2.c                                      1158    2023-01-18 09:18:28.000000000 +0000
+./ch14/pthreads3.c                                      1241    2023-01-18 09:18:28.000000000 +0000
+./ch14/cr8_so_many_threads.c                            1465    2023-01-18 09:18:28.000000000 +0000
+./ch14/disp_defattr_pthread.c                           3361    2023-01-18 09:18:28.000000000 +0000
+./ch14/assignments_ch14.txt                             3619    2023-01-18 09:18:28.000000000 +0000
+./ch14/pthreads1.c                                      1101    2023-01-18 09:18:28.000000000 +0000
+./ch14/pthreads_joiner2.c                               2255    2023-01-18 09:18:28.000000000 +0000
+./ch14/speed_multiprcs_vs_multithrd_simple/matrixmul/Makefile 4960    2023-01-18 09:18:28.000000000 +0000
+./ch14/speed_multiprcs_vs_multithrd_simple/matrixmul/prcs_matrixmul.c 1340    2023-01-18 09:18:28.000000000 +0000
+./ch14/speed_multiprcs_vs_multithrd_simple/matrixmul/thrd_matrixmul.c 2037    2023-01-18 09:18:28.000000000 +0000
+./ch14/speed_multiprcs_vs_multithrd_simple/create_destroy/perf_runs.sh 1627    2023-01-18 09:18:28.000000000 +0000
+./ch14/speed_multiprcs_vs_multithrd_simple/create_destroy/fork_test.c 1103    2023-01-18 09:18:28.000000000 +0000
+./ch14/speed_multiprcs_vs_multithrd_simple/create_destroy/Makefile 4664    2023-01-18 09:18:28.000000000 +0000
+./ch14/speed_multiprcs_vs_multithrd_simple/create_destroy/pthread_test.c 1338    2023-01-18 09:18:28.000000000 +0000
+./ch14/pthreads_joiner1.c                               2062    2023-01-18 09:18:28.000000000 +0000
+./ch14/param_passing/Makefile                           2840    2023-01-18 09:18:28.000000000 +0000
+./ch14/param_passing/pthreads1_wrong.c                  1255    2023-01-18 09:18:28.000000000 +0000
+./ch14/param_passing/struct_as_param.c                  3418    2023-01-18 09:18:28.000000000 +0000

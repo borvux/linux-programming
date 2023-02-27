@@ -26,6 +26,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
+#include <errno.h>
 #include "../common.h"
 
 /*---------------- Globals, Macros ----------------------------*/
@@ -272,7 +273,7 @@ static void write_overflow_compilemem(void)
 {
 	int i, arr[5];
 
-	for (i = 0; i <= 5; i++) {
+	for (i = 0; i <= 50; i++) {
 		arr[i] = 100;	/* Bug: 'arr' overflows on i==5,
 				   overwriting part of the 'tmp'
 				   variable - a stack overflow! */

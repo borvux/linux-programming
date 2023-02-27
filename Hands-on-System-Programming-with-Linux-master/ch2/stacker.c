@@ -55,7 +55,7 @@ static void foo(void)
 	bar();
 }
 
-int main(int argc, char **argv)
+int main(void) //int main(int argc, char **argv), you can change it to void, since they are not being used
 {
 	int localvar = 5;
 

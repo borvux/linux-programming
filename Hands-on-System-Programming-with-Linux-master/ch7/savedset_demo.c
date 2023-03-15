@@ -21,15 +21,24 @@
 #include <sys/types.h>
 #include "../common.h"
 
-#define SHOW_CREDS() do {		\
+#define SHOW_CREDS_original() do {		\
   printf("RUID=%d EUID=%d\n"		\
          "RGID=%d EGID=%d\n",		\
 		getuid(), geteuid(),    \
 		getgid(), getegid());   \
 } while (0)
 
+#define SHOW_CREDS() do { \
+    uid_t ruid, euid, suid; \
+    if (getresuid(&ruid, &euid, &suid) < 0) { \
+        FATAL("Query of [res]uid failed."); \
+    } \
+    printf("RUID=%d EUID=%d SUID=%d\n", ruid, euid, suid); \
+} while (0)
+
 int main(int argc, char **argv)
 {
+
 	uid_t saved_setuid;
 
 	printf("t0: Init:\n");

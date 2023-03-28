@@ -1,0 +1,26 @@
+Benny Joram
+
+- What is the host name?
+    ip-172-31-81-191
+
+- What is the CPU type and model?
+    vendor_id       : GenuineIntel
+    model name      : Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz
+
+- What version of the Linux kernel is being used?
+    Linux version 5.15.0-1030-aws (buildd@lcy02-amd64-022) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0,
+    GNU ld (GNU Binutils for Ubuntu) 2.38) #34-Ubuntu SMP Mon Jan 23 20:13:32 UTC 2023
+
+- How long (in days, hours, and minutes) has it been since the system was last booted?
+    up 26 days, 2 hours, 6 minutes
+
+- How much of the total CPU time has been spend executing in user mode, system mode and idle?
+    User mode:        154057 ms
+    System mode:      67833 ms
+    Idle mode:        224581988 ms
+
+- How much memory is configured for it?
+    MemTotal:         989392 kB
+
+- How much memory is currently available on it?
+    MemAvailable:     126524 kB

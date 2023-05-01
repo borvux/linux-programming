@@ -12,6 +12,18 @@ int main(int argc, char *argv[]) {
     variable[4] = argv[2];
     variable[5] = NULL;
 
+    /*
+    
+    env_vars[0] = make_env_var(SHELL, getenv(SHELL));
+    env_vars[1] = make_env_var(HOME, getenv(HOME));
+    env_vars[2] = make_env_var(PWD, getenv(PWD));
+    env_vars[3] = make_env_var(PATH, PATH_VALUE); // or variable[3] = "PATH=/usr/bin";
+    env_vars[4] = pgm_name_var;
+    env_vars[5] = NULL;
+
+
+    */
+
     // if less then 2 argument, error message
     if (argc < 3) {
         fprintf(stderr, "need at least 2 arguments\n");
